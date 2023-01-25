@@ -30,6 +30,8 @@ async def start(client, message):
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
+            ],[
+                InlineKeyboardButton('🤔 HOE TO USE ME 🤖', url='https://t.me/Htpmoviesdnk/47')
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
