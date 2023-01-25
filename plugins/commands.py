@@ -26,12 +26,12 @@ async def start(client, message):
                 InlineKeyboardButton('🔔 BOT Updates 🤖', url='https://t.me/htp_movies666')
             ],
             [
-                InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://t.me/Htpmoviesdnk"),
+                InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://t.me/dvdmoviestelugu"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
             ],[
-                InlineKeyboardButton('🤔 HOE TO USE ME 🤖', url='https://t.me/htp_movies666')
+                InlineKeyboardButton('🤔 HOE TO USE ME 🤖', url='https://t.me/Htpmoviesdnk/47')
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -49,10 +49,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://t.me/Htpmoviesdnk"),
+            InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://t.me/dvdmoviestelugu"),
             InlineKeyboardButton('🔔 BOT Updates 🤖', url='https://t.me/htp_movies666')
             ],[
-             InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
+             InlineKeyboardButton('🤔 How to Download', url='https://t.me/Htpmoviesdnk/47'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -95,10 +95,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://t.me/htp_movies666"),
+            InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://t.me/dvdmoviestelugu"),
             InlineKeyboardButton('🔔 BOT Updates 🤖', url='https://t.me/htp_movies666')
             ],[
-             InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
+             InlineKeyboardButton('🙆🏻 Help 🦾', url='https://t.me/Htpmoviesdnk/47'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
